@@ -25,10 +25,8 @@ An AI-powered data analysis agent that lets you talk to your data in plain Engli
 - [How It Works](#how-it-works)
 - [Explainable AI with SHAP](#explainable-ai-with-shap)
 - [Use Cases](#use-cases)
+- [Screenshots](#screenshots)
 - [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
 ---
@@ -495,6 +493,42 @@ Final prediction: $18,741
 | Retail | Classify customers into segments |
 | Real Estate | Predict house prices |
 | Education | Analyze student performance |
+
+---
+
+## Screenshots
+
+### 1. Upload Dataset
+![Upload](screenshots/01-upload.png)
+*Upload CSV or Excel files with automatic preview and row/column count.*
+
+### 2. Configure Target and Train Models
+![Train](screenshots/02-train.png)
+*Select target column and problem type. The system auto-detects regression, classification, or time series.*
+
+### 3. Model Results
+![Results](screenshots/03-results.png)
+*Compare all trained models with metrics (R², MAE, RMSE for regression; Accuracy, Precision, Recall, F1 for classification).*
+
+### 4. Make a Prediction
+![Predict](screenshots/04-predict.png)
+*Enter feature values and get instant predictions from the best model.*
+
+### 5. Feature Impact Chart (SHAP)
+![Chart](screenshots/05-chart.png)
+*Visualize which features increased (green) or decreased (red) the prediction.*
+
+### 6. Detailed Explanation
+![Explanation](screenshots/06-explanation.png)
+*Understand exactly how each feature contributed to the result, with numeric impact values.*
+
+### 7. AI Chat Interface
+![Chat](screenshots/07-chat.png)
+*Ask questions in natural language (English or Arabic) and get intelligent responses.*
+
+### 8. Complete Dashboard
+![Dashboard](screenshots/08-dashboard.png)
+*Full 3-step workflow: Upload → Target + Train → Results + Predict.*
 
 ---
 
